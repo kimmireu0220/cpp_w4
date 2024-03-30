@@ -6,8 +6,8 @@ int main() {
 	Exp b(9);
 	Exp c;
 
-	std::cout << a.getValue() << ' ' << b.getValue() << ' ' << c.getValue() << std::endl;
-	std::cout << "Base of a: " << a.getBase() << ", " << "Exponent of a " << a.getExp() << std::endl;
+	std::cout << "value of a: " << a.getValue() << ", value of b: " << b.getValue() << ", value of c: " << c.getValue() << std::endl;
+	std::cout << "a의 베이스: " << a.getBase() << ", " << "a의 지수 " << a.getExp() << std::endl;
 
 	if (a.equals(b))
 		std::cout << "same value" << std::endl;

@@ -8,8 +8,8 @@ int main() {
     book1->show();
     delete book1;
 
-    std::string title = "SeongchunhyangJeon";
-    std::string author = "Unknown";
+    std::string title = "성춘향전";
+    std::string author = "미상";
 
     // 매개변수를 가진 생성자로 객체 생성
     Book* book2 = new Book(title, author, 1600);
@@ -19,13 +19,13 @@ int main() {
     // 사용자로부터 입력을 받아 객체 생성
     int year;
 
-    std::cout << "Title: ";
+    std::cout << "제목: ";
     std::getline(std::cin, title);
 
-    std::cout << "Author: ";
+    std::cout << "작가: ";
     std::getline(std::cin, author);
 
-    std::cout << "Publication year: ";
+    std::cout << "출판 연도: ";
     std::cin >> year;
 
     Book* book3 = new Book(title, author, year);;

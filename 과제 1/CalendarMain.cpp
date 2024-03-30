@@ -14,11 +14,11 @@ int main() {
 
     // 연도, 월, 일 입력
     int year, month, day;
-    std::cout << "Input Year:";
+    std::cout << "연도 입력: ";
     std::cin >> year;
-    std::cout << "Input Month:";
+    std::cout << "월 입력: ";
     std::cin >> month;
-    std::cout << "Input Day:";
+    std::cout << "일 입력: ";
     std::cin >> day;
 
     // date4(3개의 인자를 가진 생성자), date5(2개의 인자를 가진 생성자)
